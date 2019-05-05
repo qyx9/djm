@@ -1,0 +1,233 @@
+.shareapp {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.shareapp .shareXCenter {
+  width: 100%;
+  height: 140rpx;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.shareapp .weixin {
+  width: 140rpx;
+  height: 140rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000;
+}
+.shareapp .weixin image {
+  width: 140rpx;
+  height: 140rpx;
+}
+.weixind {
+  -webkit-animation: bounceinL 3s infinite;
+          animation: bounceinL 3s infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.wxqyc {
+  -webkit-animation: bounceinB 3s infinite;
+          animation: bounceinB 3s infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.qq {
+  -webkit-animation: bounceinT 3s infinite;
+          animation: bounceinT 3s infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.weibo {
+  -webkit-animation: bounceinR 3s infinite;
+          animation: bounceinR 3s infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+/* 从上弹入 */
+@-webkit-keyframes bounceinT {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+}
+80% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+}
+100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+@keyframes bounceinT {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+}
+80% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+}
+100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+/* 从右弹入 */
+@-webkit-keyframes bounceinR {
+0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+}
+80% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+}
+100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+}
+@keyframes bounceinR {
+0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+}
+80% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+}
+100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+}
+/* 从下弹入 */
+@-webkit-keyframes bounceinB {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+}
+80% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+}
+100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+@keyframes bounceinB {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+}
+80% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+}
+100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+/* 从左弹入 */
+@-webkit-keyframes bounceinL {
+0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+}
+80% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+}
+100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+}
+@keyframes bounceinL {
+0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+}
+80% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+}
+100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+}
+.closeN {
+  position: absolute;
+  bottom: 60rpx;
+  left: 50%;
+  background-color: #cfcfcf;
+  color: #FFFFFF;
+  font-size: 50rpx;
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 46%;
+}
+

@@ -1,0 +1,2 @@
+<import src="./textgood2.vue.wxml" />
+    <template is="68e9e675" data="{{ ...$root['0'], $root }}"/>

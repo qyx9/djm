@@ -1,0 +1,1 @@
+<template name="4b0ea4f7"><view class="_view login {{ h[ 0 ].rcl }}"><image class="_image" src="../../static/xiong1.png" mode="widthFix"></image><button s-if="{{ h[ 2 ]._if }}" class="_button testbutton" type="primary" open-type="getUserInfo" withCredentials="true" data-cid="{{ _c || c }}" data-hid="{{ 2 }}" bindgetuserinfo="_pe">登录到小程序</button></view></template>

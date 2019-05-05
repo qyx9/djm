@@ -1,0 +1,89 @@
+.share {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.share .shareContent {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 40rpx;
+  padding: 0 20rpx;
+}
+.share .shareContent .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.share .shareContent .content .author {
+  width: 50%;
+  position: relative;
+}
+.share .shareContent .content .author .touxiang {
+  display: inline-block;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background-color: #cccccc;
+}
+.share .shareContent .content .author > view:nth-child(2) {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 20rpx;
+  left: 92rpx;
+  width: 160rpx;
+  height: 80rpx;
+}
+.share .shareContent .content .shareBtn {
+  margin-top: 12rpx;
+  width: 34%;
+  position: relative;
+}
+.share .shareContent .content .shareBtn image {
+  width: 46rpx;
+  height: 46rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 14rpx;
+}
+.share .shareContent .content .shareBtn view {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 42rpx;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2rpx solid #E6E6E6;
+  padding-left: 20rpx;
+}
+.share .shareContent .goodAssess {
+  width: 80%;
+  margin: 0 auto;
+}
+.share .shareContent .goodTime {
+  width: 90%;
+  margin: 0 auto;
+}
+.share .shareContent .goodChart {
+  width: 90%;
+  margin: 0 auto;
+}
+.share .shareContent .goodChart image {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 10rpx 10rpx 10rpx 0rpx;
+}
+

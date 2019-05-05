@@ -1,0 +1,14 @@
+.bannerpush {
+  background-color: #F5F5F5;
+}
+.bannerpush .banner {
+  width: 100%;
+  height: 300rpx;
+}
+.bannerpush .name {
+  width: 100%;
+  font-size: 40rpx;
+  font-weight: bold;
+  text-align: center;
+}
+

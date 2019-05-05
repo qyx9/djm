@@ -1,0 +1,61 @@
+.fans {
+  height: 1200rpx;
+  background-color: #F5F5F5;
+}
+.fans .Tips {
+  font-size: 26rpx;
+  height: 60rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 60rpx;
+  background-color: #FFF2C5;
+  color: #FE4545;
+}
+.fans .content {
+  padding: 0 20rpx;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.fans .content view {
+  height: 80rpx;
+  width: 100%;
+  line-height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #A2A2A2;
+  font-size: 26rpx;
+}
+.fans .content .fasList > image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-top: 10rpx;
+}
+.fans .content .fasList .recalls {
+  padding-left: 0rpx;
+  padding-right: 0rpx;
+  border-radius: 4rpx;
+  margin: 0rpx;
+  position: static;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+  color: #ffffff;
+  background-color: #D9A800;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/fans/fans.js.map*/

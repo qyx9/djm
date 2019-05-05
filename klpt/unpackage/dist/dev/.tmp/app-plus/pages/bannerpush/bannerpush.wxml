@@ -1,0 +1,2 @@
+<import src="./bannerpush.vue.wxml" />
+    <template is="1612273a" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./feilei.vue.swan" />
+    <template is="e636863a" data="{{{ ...$root['0'], $root }}}"/>

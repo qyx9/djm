@@ -1,0 +1,187 @@
+.rule {
+  padding-bottom: 74rpx;
+}
+.rule .paddingl20 {
+  margin: 20rpx 38rpx;
+  width: 22%;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #000000;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.rule .Member .title {
+  font-weight: bold;
+  padding-top: 8rpx;
+  padding-bottom: 20rpx;
+}
+.rule > .main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 0 36rpx;
+}
+.rule .content_h {
+  padding-bottom: 20rpx;
+}
+.rule .content > .tabtop {
+  background-color: #444444;
+  height: 80rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 28rpx;
+}
+.rule .tabmain {
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 26rpx;
+}
+.rule .tabmain .right {
+  height: 118rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-break: break-all;
+  border-bottom: 2rpx solid #444444;
+  border-left: 2rpx solid #444444;
+  border-right: 2rpx solid #444444;
+  position: relative;
+}
+.rule .tabmain .right .left {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 46rpx;
+  left: -30rpx;
+}
+.rule .tabmain .right .left image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.rule .tabmain .right .me {
+  position: absolute;
+  top: 14rpx;
+  left: -20rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.rule .tabmain .right .border {
+  position: absolute;
+  top: 6rpx;
+  left: 2rpx;
+  width: 98%;
+  height: 100rpx;
+  border-radius: 16rpx;
+  border: 4rpx solid #EC4E28;
+}
+.rule .Explain {
+  margin-bottom: 20rpx;
+  color: #999999;
+  font-size: 28rpx;
+}
+.rule .Explain > text {
+  display: inline-block;
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  color: #FFFFFF;
+  border-radius: 50%;
+  background-color: #C6C6C6;
+  text-align: center;
+  font-size: 24rpx;
+  margin-right: 6rpx;
+}
+.rule .Explain_h {
+  color: #333333;
+  padding: 0 34rpx;
+  word-break: break-all;
+}
+.rule .titles {
+  height: 80rpx;
+  width: 100%;
+  border-bottom: 4rpx solid #F8F8F8;
+  margin-bottom: 20rpx;
+}
+.rule .titles .rule_sroll {
+  display: inline-block;
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  position: relative;
+}
+.rule .titles .rule_sroll .line {
+  position: absolute;
+  bottom: 0rpx;
+  left: 78rpx;
+  width: 58%;
+  height: 4rpx;
+  background-color: #FD4739;
+}
+.rule .titles .active {
+  color: #FD4739;
+}
+.rule .flexTop0 {
+  position: flex;
+  top: 0rpx;
+  width: 100%;
+  height: 80rpx;
+  z-index: 2;
+}
+.rule .btnshare {
+  position: fixed;
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 28rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 16rpx;
+  border-radius: 50%;
+  background: rgba(241, 0, 0, 0.8);
+  color: #ffffff;
+  bottom: 50rpx;
+  right: 28rpx;
+  z-index: 20;
+  text-align: center;
+}
+.rule .btnshare > text {
+  width: 60rpx;
+  display: inline-block;
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,304 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				// "navigationBarTitleText": "首页",
+				// "enablePullDownRefresh": true,
+				"usingComponents":{
+				},
+				"onReachBottomDistance":50,
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": "广告海报"
+			}
+		},
+		{
+			"path": "pages/hotsale/hotsale",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"onReachBottomDistance":50
+			}
+		},
+		{
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationBarTitleText": "热销",
+				"onReachBottomDistance":50
+			}
+		},
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "分享圈"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/productmess/productmess",
+			"style": {
+				"navigationBarTitleText": "产品详情页"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		},
+		{
+			"path": "pages/gooList/gooList"
+		},
+		{
+			"path": "pages/searchinput/searchinput",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"onReachBottomDistance":50
+			}
+		},
+		{
+			"path": "pages/feilei/feilei",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "商品评价",
+				"onReachBottomDistance":50
+			}
+		},
+		{
+			"path": "pages/bannerpush/bannerpush"
+		},
+		{
+			"path": "pages/applogin/applogin",
+			"style": {
+				"navigationBarTitleText": "applogin"
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/browse/browse",
+			"style": {
+				"navigationBarTitleText": "浏览记录",
+				"onReachBottomDistance":50
+			}
+		},
+		{
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "收藏夹"
+			}
+		},
+		{
+			"path": "pages/drawmoney/drawmoney",
+			"style": {
+				"navigationBarTitleText": "支付明细"
+			}
+		},
+		{
+			"path": "pages/order/order"
+		},
+		{
+			"path": "pages/freeship/freeship"
+		},
+		{
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/whole/whole",
+			"style": {
+				"navigationBarTitleText": "全部返利",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/fans/fans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝"
+			}
+		},
+		{
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/bind/bind",
+			"style": {
+				"navigationBarTitleText": "绑定信息"
+			}
+		},
+		{
+			"path": "pages/weburl/weburl",
+			"style": {
+				"navigationBarTitleText": "web"
+			}
+		},
+		{
+			"path": "pages/testgood/testgood",
+			"style": {
+				"navigationBarTitleText": "测试页面"
+			}
+		},
+		{
+			"path": "pages/textgood2/textgood2",
+			"style": {
+				"navigationBarTitleText": "测试页面"
+			}
+		},
+		{
+			"path": "pages/testtext/testtext",
+			"style": {
+				"navigationBarTitleText": "测试页面"
+			}
+		},
+		{
+			"path": "pages/testlist/testlist",
+			"style": {
+				"navigationBarTitleText": "测试页面"
+			}
+		},
+		{
+			"path": "pages/testdraw/testdraw",
+			"style": {
+				"navigationBarTitleText": "测试页面"
+			}
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助页面"
+			}
+		},
+		{
+			"path": "pages/rule/rule",
+			"style": {
+				"navigationBarTitleText": "VIP规则"
+			}
+		},
+		{
+			"path": "pages/rules/rule",
+			"style": {
+				"navigationBarTitleText": "VIP规则"
+			}
+		},
+		
+		{
+			"path": "pages/shareapp/shareapp",
+			"style": {
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
+            }
+		}
+		// #ifdef APP-PLUS
+		,
+		{
+			"path": "pages/applogin/applogin",
+			"style": {
+				"navigationBarTitleText": "登录页面"
+			}
+		},
+		{
+			"path": "pages/appregter/appregter",
+			"style": {
+				"navigationBarTitleText": "注册页面"
+			}
+		},
+		{
+			"path": "pages/appPwd/appPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		}
+		// #endif
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FD4739",
+		"backgroundColor": "#F8F8F8"
+		// #ifdef APP-PLUS
+		,
+		"onReachBottomDistance":100
+		// #endif
+	},
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#d81e06",
+		"borderStyle":"black",
+		"backgroundColor":"#F8F8F8",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/shouye.png",
+				"selectedIconPath":"static/shouye2.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/hotsale/hotsale",
+				"iconPath":"static/tongj.png",
+				"selectedIconPath":"static/tongj2.png",
+				"text":"榜单"
+			},
+			{
+				"pagePath":"pages/hot/hot",
+				"iconPath":"static/huo.png",
+				"selectedIconPath":"static/huo2.png",
+				"text":"热销"
+			},
+			{
+				"pagePath":"pages/rule/rule",
+				"iconPath":"static/dai.png",
+				"selectedIconPath":"static/dai2.png",
+				"text":"升级返利"
+			},
+			{
+				"pagePath":"pages/personal/personal",
+				"iconPath":"static/wode.png",
+				"selectedIconPath":"static/wode2.png",
+				"text":"我的"
+			}
+			]
+	},
+     "navigateToMiniProgramAppIdList":[
+		"wxcbe110fu2xaxedfu",
+		"wxfb1ff0f3u0abe913",
+		"wxc1b5d81exdad1efe",
+		"wxu8caa30cd32c1fb9",
+		"wx52axxb89fx3xe23c",
+		"wx32540bd863b27570"
+]
+}

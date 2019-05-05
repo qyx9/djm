@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"bannerpush .",[1],"banner { width: 100%; height: ",[0,300],"; }\n.",[1],"bannerpush .",[1],"name { width: 100%; font-size: ",[0,40],"; font-weight: bold; text-align: center; }\n",],undefined,{path:"./pages/bannerpush/bannerpush.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/bannerpush/bannerpush.wxml') } }));

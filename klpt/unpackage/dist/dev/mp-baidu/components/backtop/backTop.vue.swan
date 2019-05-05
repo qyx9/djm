@@ -1,0 +1,1 @@
+<template name="12eb3955"><view hidden="{{ h[ 0 ].vs }}" class="_view jiantou {{ h[ 0 ].rcl }}" data-cid="{{ _c || c }}" data-hid="{{ 0 }}" bindtap="_pe"><image class="_image" src="{{ h[ 1 ][ 'src' ] }}" mode="widthFix"></image></view></template>

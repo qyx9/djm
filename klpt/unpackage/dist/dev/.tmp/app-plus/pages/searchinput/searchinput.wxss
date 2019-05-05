@@ -1,0 +1,277 @@
+.searchinput {
+  width: 750rpx;
+}
+.searchinput .searchgoods2 {
+  position: fixed;
+  top: 0;
+}
+.searchinput .top160 {
+  height: 160rpx;
+  width: 100%;
+}
+.searchinput .searchBox {
+  position: relative;
+}
+.searchinput .searchBox > .imgcha {
+  width: 40rpx;
+  height: 40rpx;
+  position: fixed;
+  top: 20rpx;
+  right: 152rpx;
+  z-index: 100;
+}
+.searchinput .searchBox > .imgser {
+  width: 32rpx;
+  height: 32rpx;
+  position: fixed;
+  top: 24rpx;
+  left: 30rpx;
+  z-index: 100;
+}
+.searchinput .searchgoods {
+  position: fixed;
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  z-index: 100;
+}
+.searchinput .searchgoods input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 79%;
+  height: 56rpx;
+  background-color: #fff;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  padding-left: 60rpx;
+  padding-right: 70rpx;
+  background-color: #EDEDED;
+}
+.searchinput .searchgoods .searchbox {
+  width: 14%;
+  height: 56rpx;
+  line-height: 56rpx;
+  background-color: #FD4739;
+  border-radius: 6rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.searchinput .searchHistory .title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rpx 20rpx;
+}
+.searchinput .searchHistory .title view {
+  width: 40%;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #C2C2C2;
+  font-size: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 34rpx;
+}
+.searchinput .searchHistory .title image {
+  padding: 18rpx 0 0 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchinput .searchHistory .title .history {
+  position: relative;
+}
+.searchinput .searchHistory .title .history > image {
+  position: absolute;
+  top: -16rpx;
+  left: -8rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchinput .searchHistory .content {
+  margin-top: 20rpx;
+  min-height: 160rpx;
+  width: 100%;
+}
+.searchinput .searchHistory .content text {
+  height: 36rpx;
+  background-color: #F2F2F2;
+  color: #6B6B6B;
+  display: inline-block;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  border-radius: 14rpx;
+  padding: 10rpx 20rpx;
+  margin-bottom: 20rpx;
+  max-width: 240rpx;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.searchinput .searchHot .title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rpx 20rpx;
+}
+.searchinput .searchHot .title view {
+  width: 40%;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #C2C2C2;
+  font-size: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 34rpx;
+}
+.searchinput .searchHot .title image {
+  padding: 18rpx 0 0 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchinput .searchHot .title .hot {
+  position: relative;
+}
+.searchinput .searchHot .title .hot > image {
+  position: absolute;
+  top: -16rpx;
+  left: -8rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchinput .searchHot .content {
+  margin-top: 20rpx;
+  height: 160rpx;
+  width: 100%;
+}
+.searchinput .searchHot .content text {
+  width: 40rpx;
+  height: 20rpx;
+  background-color: #F2F2F2;
+  color: #6B6B6B;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  border-radius: 14rpx;
+  padding: 10rpx 20rpx;
+}
+.searchinput .searchHot .tishi {
+  color: #cccccc;
+  width: 46%;
+  height: 180rpx;
+  line-height: 180rpx;
+  text-align: cneter;
+  margin: 0 auto;
+}
+.searchinput .decscmenu {
+  width: 100%;
+  position: fixed;
+  top: 80rpx;
+  z-index: 666;
+}
+.searchinput .scrollview {
+  width: 32%;
+}
+.searchinput .scrollview .scrollList {
+  left: 144rpx;
+}
+.searchinput .activeline {
+  right: 102rpx;
+}
+.searchinput .explain {
+  margin-top: 100rpx;
+}
+.searchinput .explain .plain {
+  width: 80%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #C2C2C2;
+  margin-left: 10%;
+  position: relative;
+}
+.searchinput .explain .plain > image:first-child {
+  position: absolute;
+  top: 40rpx;
+  left: 50rpx;
+  width: 20%;
+  height: 2rpx;
+}
+.searchinput .explain .plain > image:nth-child(2) {
+  position: absolute;
+  top: 40rpx;
+  right: 80rpx;
+  width: 20%;
+  height: 2rpx;
+}
+.searchinput .explain image {
+  width: 90%;
+  height: 100rpx;
+  margin-left: 5%;
+  border-radius: 20rpx;
+}
+.goodNull {
+  width: 100%;
+  height: 80rpx;
+  color: #6B6B6B;
+  line-height: 80rpx;
+  text-align: center;
+}
+

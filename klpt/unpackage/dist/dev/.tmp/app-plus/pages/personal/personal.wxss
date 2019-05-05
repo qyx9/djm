@@ -1,0 +1,397 @@
+.personal .user_set {
+  width: 100%;
+  height: 80rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2rpx solid #F5F5F5;
+}
+.personal .user_set > view:first-child {
+  font-size: 36rpx;
+  font-weight: 500;
+  padding-left: 10rpx;
+}
+.personal .user_set > view image {
+  width: 22rpx;
+  height: 22rpx;
+}
+.personal ._div {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.personal .position20 {
+  padding-top: 330rpx;
+}
+.personal .flexed {
+  position: relative;
+}
+.personal .flexed .reduce {
+  position: absolute;
+  bottom: 116rpx;
+  right: 20rpx;
+  font-size: 26rpx;
+  color: #FFFFFF;
+}
+.personal .flexed .reduce > text {
+  color: #FDEB7D;
+}
+.personal .pflex {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.personal .userList {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20rpx 20rpx 20rpx 40rpx;
+  width: 100%;
+  height: 262rpx;
+  background-color: #FD4739;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.personal .userList .usermess {
+  width: 490rpx;
+  height: 122rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.personal .userList .usermess > image {
+  margin-top: 4rpx;
+  width: 122rpx;
+  height: 122rpx;
+  border-radius: 50%;
+}
+.personal .userList .usermess .username {
+  width: 350rpx;
+  height: 40rpx;
+  color: #ffffff;
+  font-size: 30rpx;
+}
+.personal .userList .usermess .username > view:first-child {
+  font-size: 32rpx;
+}
+.personal .userList .usermess .username .start {
+  width: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30rpx;
+  margin-top: 14rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 14rpx;
+  font-size: 28rpx;
+}
+.personal .userList .usermess .username .start > text:nth-child(2) {
+  color: #FDC170;
+  margin-left: 6rpx;
+}
+.personal .userList .server {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20rpx;
+  padding: 0rpx 10rpx;
+  width: 210rpx;
+  height: 58rpx;
+  border-radius: 26rpx;
+  background-color: #FE7F75;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 28rpx;
+  color: #ffffff;
+}
+.personal .userList .server image:first-child {
+  width: 40rpx;
+  height: 40rpx;
+}
+.personal .userList .server image:nth-child(3) {
+  width: 12rpx;
+  height: 12rpx;
+}
+.personal .save_money {
+  position: absolute;
+  top: 158rpx;
+  height: 104rpx;
+  width: 92%;
+  margin: 0 4%;
+  border-radius: 14rpx 14rpx 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#FFF7EC), to(#F7DB9D));
+  background: -o-linear-gradient(left, #FFF7EC, #F7DB9D);
+  background: linear-gradient(to right, #FFF7EC, #F7DB9D);
+}
+.personal .save_money > view:first-child {
+  color: #3B2E10;
+  font-size: 28rpx;
+  width: 90%;
+  height: 80rpx;
+  padding-top: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 20rpx;
+  display: inline-block;
+}
+.personal .save_money > view:nth-child(2) {
+  width: 10%;
+  height: 80rpx;
+  display: inline-block;
+}
+.personal .save_money > view:nth-child(2) > image {
+  width: 20rpx;
+  height: 20rpx;
+}
+.personal .take {
+  position: absolute;
+  top: 158rpx;
+  width: 94%;
+  height: 136rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10rpx 3%;
+  background-color: #ffffff;
+  border-radius: 14rpx;
+  -webkit-box-shadow: 0rpx 6rpx 10rpx #FCF3F2;
+          box-shadow: 0rpx 6rpx 10rpx #FCF3F2;
+}
+.personal .take .all {
+  width: 28%;
+  height: 136rpx;
+  font-size: 26rpx;
+}
+.personal .take .all view:first-child {
+  height: 78rpx;
+  line-height: 100rpx;
+  color: #FD4739;
+  text-align: center;
+  font-size: 44rpx;
+}
+.personal .take .all view:nth-child(2) {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  height: 66rpx;
+  line-height: 46rpx;
+  color: #9F9F9F;
+  padding-bottom: 20rpx;
+}
+.personal .take .all view:nth-child(2) image {
+  width: 20rpx;
+  height: 20rpx;
+}
+.personal .take .balance {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 24%;
+  height: 100rpx;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  padding-left: 40rpx;
+}
+.personal .take .balance view:first-child {
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #3B2E10;
+  text-align: center;
+  font-size: 44rpx;
+}
+.personal .take .balance view:nth-child(2) {
+  text-align: center;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #9F9F9F;
+}
+.personal .take .balance view:nth-child(2) image {
+  width: 20rpx;
+  height: 20rpx;
+}
+.personal .take .balances {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 18%;
+  height: 100rpx;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.personal .take .balances view {
+  margin: 20rpx 0rpx 0 30rpx;
+  font-size: 28rpx;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background: -o-linear-gradient(45deg, #FF9834, #FD4739);
+  background: linear-gradient(45deg, #FF9834, #FD4739);
+  border-radius: 14rpx;
+  color: #ffffff;
+}
+.personal .fan {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 220rpx;
+  background-color: #ffffff;
+  padding: 0 20rpx;
+}
+.personal .fan .title {
+  font-size: 36rpx;
+  font-weight: 500;
+  padding-left: 10rpx;
+  padding-top: 20rpx;
+}
+.personal .fan .fanList {
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.personal .fan .fanList .list .listimg {
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 24rpx;
+}
+.personal .fan .fanList .list .listimg > image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.personal .fan .fanList .list view:nth-child(2) {
+  text-align: center;
+  font-size: 24rpx;
+  color: #C8C8C8;
+}
+.personal .Invitation {
+  padding: 12rpx 20rpx 0 20rpx;
+}
+.personal .Invitation > image {
+  width: 100%;
+}
+.personal .set {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.personal .set .setList {
+  width: 25%;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 30rpx 0;
+}
+.personal .set .setList > image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.personal .set .borderbottom {
+  border-bottom: 1rpx solid #F5F5F5;
+}
+.personal .margin20 {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 20rpx;
+}
+

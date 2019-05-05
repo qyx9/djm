@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "首页",
+  "onReachBottomDistance": 50,
+  "navigationStyle": "custom",
+  "titleNView": false
+}

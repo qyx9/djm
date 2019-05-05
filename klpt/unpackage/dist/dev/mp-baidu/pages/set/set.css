@@ -1,0 +1,69 @@
+.set {
+  background-color: #ffffff;
+  height: 1000px;
+}
+.set .setList {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 80rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20rpx;
+  border-bottom: 2rpx solid #F5F5F5;
+}
+.set .margin20 {
+  height: 20rpx;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.set .retreat {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 120rpx;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 20rpx;
+}
+.set .retreat .signout {
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 10%;
+  background-color: #FD4739;
+  border-radius: 40rpx;
+}
+.set .spans {
+  display: inline-block;
+  width: 100rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  background-color: #F5F5F5;
+  border-radius: 14rpx;
+  font-size: 26rpx;
+  margin-right: 10rpx;
+}
+.hoverBg {
+  background-color: #eee;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/set/set.js.map*/

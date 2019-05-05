@@ -1,0 +1,32 @@
+.banner {
+  width: 100%;
+}
+.banner > image {
+  width: 100%;
+}
+.decscmenu {
+  color: #ACACAC;
+}
+.scrollview {
+  font-size: 36rpx;
+}
+.hostsale .scrollview {
+  width: 33%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  text-align: center;
+  display: inline-block;
+}
+.hostsale .actives {
+  color: #F70009;
+}
+.hostsale .decscmenu2 {
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  z-index: 100;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/hot/hot.js.map*/

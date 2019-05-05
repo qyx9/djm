@@ -1,0 +1,183 @@
+.searchinput {
+  width: 750rpx;
+}
+.searchinput .searchgoods2 {
+  position: fixed;
+  top: 0;
+}
+.searchinput .searchBox {
+  position: relative;
+}
+.searchinput .searchBox > image {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 190rpx;
+  z-index: 100;
+}
+.searchinput .searchgoods {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FD4739;
+  z-index: 100;
+}
+.searchinput .searchgoods input {
+  width: 68%;
+  height: 40rpx;
+  background-color: #fff;
+  border-radius: 24rpx;
+  font-size: 26rpx;
+  text-indent: 16rpx;
+  padding-left: 10rpx;
+}
+.searchinput .searchgoods .searchbox {
+  width: 14%;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#FF9834), to(#FD4739));
+  background: -o-linear-gradient(left, #FF9834, #FD4739);
+  background: linear-gradient(to right, #FF9834, #FD4739);
+  border-radius: 30rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.searchinput .searchHistory .title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rpx 20rpx;
+}
+.searchinput .searchHistory .title text {
+  width: 40%;
+  height: 40rpx;
+  color: #cccccc;
+}
+.searchinput .searchHistory .title image {
+  padding: 18rpx 0 0 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchinput .searchHistory .content {
+  margin-top: 20rpx;
+  height: 160rpx;
+  width: 100%;
+}
+.searchinput .searchHistory .content text {
+  height: 36rpx;
+  background-color: #F2F2F2;
+  color: #6B6B6B;
+  display: inline-block;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  border-radius: 14rpx;
+  padding: 10rpx 20rpx;
+  margin-bottom: 20rpx;
+  max-width: 240rpx;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.searchinput .searchHot .title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10rpx 20rpx;
+}
+.searchinput .searchHot .title text {
+  width: 40%;
+  height: 40rpx;
+  color: #cccccc;
+}
+.searchinput .searchHot .title image {
+  padding: 18rpx 0 0 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.searchinput .searchHot .content {
+  margin-top: 20rpx;
+  height: 160rpx;
+  width: 100%;
+}
+.searchinput .searchHot .content text {
+  width: 40rpx;
+  height: 20rpx;
+  background-color: #F2F2F2;
+  color: #6B6B6B;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  border-radius: 14rpx;
+  padding: 10rpx 20rpx;
+}
+.searchinput .searchHot .tishi {
+  color: #cccccc;
+  width: 46%;
+  text-align: cneter;
+  margin: 0 auto;
+}
+.goodNull {
+  width: 100%;
+  height: 80rpx;
+  color: #6B6B6B;
+  line-height: 80rpx;
+  text-align: center;
+}
+

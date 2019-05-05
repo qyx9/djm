@@ -1,0 +1,35 @@
+.hostsale .hotList {
+  width: 100%;
+  white-space: nowrap;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  border-bottom: 2rpx solid #EEEEEE;
+  z-index: 100;
+}
+.hostsale .hotList .hotMenu {
+  display: inline-block;
+  width: 160rpx;
+  height: 100rpx;
+  text-align: center;
+}
+.hostsale .hotList .active {
+  color: #FD4739;
+  position: relative;
+}
+.hostsale .hotList .active .activeline {
+  position: absolute;
+  top: 96rpx;
+  right: 52rpx;
+  width: 50rpx;
+  height: 4rpx;
+  background-color: #F70009;
+}
+.hostsale .goodMargin {
+  margin: 110rpx 0 0 0;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/hotsale/hotsale.js.map*/

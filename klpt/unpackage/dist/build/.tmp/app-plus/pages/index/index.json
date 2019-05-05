@@ -1,0 +1,12 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+<import src="./hotsale.vue.swan" />
+    <template is="0a45aecd" data="{{{ ...$root['0'], $root }}}"/>

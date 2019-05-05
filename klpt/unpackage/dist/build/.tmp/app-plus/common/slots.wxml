@@ -1,0 +1,9 @@
+<import src="/components/goodlist/goodlist.vue.wxml" />
+<import src="/components/uni-countdown/uni-countdown.vue.wxml" />
+<import src="/components/goodflex/goodflex.vue.wxml" />
+<import src="/components/uni-load-more/uni-load-more.vue.wxml" />
+<import src="/components/backtop/backTop.vue.wxml" />
+<import src="/components/m-input.vue.wxml" />
+<import src="/components/orderList/orderList.vue.wxml" />
+<import src="/components/m-icon/m-icon.vue.wxml" />
+

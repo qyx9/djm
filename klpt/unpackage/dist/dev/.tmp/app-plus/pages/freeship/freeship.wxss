@@ -1,0 +1,31 @@
+.hotList {
+  width: 100%;
+  white-space: nowrap;
+  height: 90rpx;
+  line-height: 90rpx;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  border-bottom: 2rpx solid #EEEEEE;
+  z-index: 100;
+}
+.hotList .hotMenu {
+  display: inline-block;
+  width: 100rpx;
+  height: 90rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.hotList .active {
+  color: #FD4739;
+  position: relative;
+}
+.hotList .active .activeline {
+  position: absolute;
+  top: 82rpx;
+  right: 26rpx;
+  width: 50rpx;
+  height: 4rpx;
+  background-color: #F70009;
+}
+

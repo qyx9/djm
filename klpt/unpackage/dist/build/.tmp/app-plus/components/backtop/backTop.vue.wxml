@@ -1,0 +1,1 @@
+<template name="12eb3955"><view class="_view 12eb3955 jiantou" bindtap="handleProxy" hidden="{{!(topblean)}}" data-eventid="{{'12eb3955-0'}}" data-comkey="{{$k}}"><image src="{{src}}" mode="widthFix" class="_image 12eb3955"></image></view></template>

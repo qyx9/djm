@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"guide { position: relative; }\n.",[1],"guide \x3e wx-image { width: 100%; }\n.",[1],"guide .",[1],"join { position: fixed; top: ",[0,20],"; right: ",[0,20],"; width: ",[0,150],"; height: ",[0,60],"; border: ",[0,2]," solid #000; border-radius: ",[0,14],"; text-align: center; line-height: ",[0,60],"; }\n",],undefined,{path:"./pages/guide/guide.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/guide/guide.wxml') } }));

@@ -1,0 +1,2 @@
+<import src="./drawmoney.vue.wxml" />
+    <template is="94689546" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./rule.vue.swan" />
+    <template is="c36ac23a" data="{{{ ...$root['0'], $root }}}"/>

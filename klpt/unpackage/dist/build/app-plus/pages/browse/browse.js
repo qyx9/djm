@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"browse { height: 100%; background-color: #F5F5F5; }\n.",[1],"browse .",[1],"timeline .",[1],"time { height: ",[0,60],"; width: 100%; line-height: ",[0,60],"; text-align: center; background-color: #F5F5F5; }\n",],undefined,{path:"./pages/browse/browse.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/browse/browse.wxml') } }));

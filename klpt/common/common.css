@@ -1,0 +1,505 @@
+
+	.shop>image{
+		height: 156upx;
+		width: 100%;
+	}
+	 .scrollmenu{
+		width: 100%;
+		height: 80upx;
+		background-color: #FFFFFF;
+		z-index: 100;
+	}
+	 .scrollview{
+		width: 27%;
+		height: 80upx;
+		line-height: 80upx;
+		font-size: 30upx;
+		text-align: center;
+		display: inline-block;
+	}
+	/* desc 上下 */
+	.scrollview .scrollList{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		height: 50upx;
+		width: 40upx;
+		top: -86upx;
+		left: 130upx;
+	}
+	/* text */
+	.scrollview .scrollList view{
+		height: 12upx;
+		width: 40upx;
+		font-size: 14upx;
+		color:#A6A6A6;
+		margin-top: 2upx;
+	}
+	.rises{
+		color:red !important;
+	}
+	.drops{
+		color:red !important;
+	}
+	.scrollmenu .iconflex{
+		width: 19%;
+		height: 80upx;
+	}
+	.scrollmenu .iconflex>image{
+		width: 44upx;
+		height: 44upx;
+	}
+	 .actives {
+		 position: relative;
+		 color: #FD4739;
+	}
+	.activeline{
+		position: absolute;
+		top:76upx;
+		right: 81upx;
+		width: 46upx;
+		height: 4upx;
+		background-color: #F70009;
+	}
+	.decscmenu{
+		border-bottom:2upx #EEEEEE solid;
+	}
+	.foodlist{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+	.menumsg{
+			/* background-color: #cccccc; */
+			padding-top: 16upx;
+			width:20%;
+			height: 120upx;
+			font-size: 28upx;
+			display: flex;
+			flex-direction:column;
+			align-items: center;
+	}
+	.menumsg image{
+		width: 70upx;
+		height:70upx;
+		border-radius: 50%;
+	}
+	navigator>image{
+			 width: 100%;
+    }
+	.navigate>image{
+			width: 100%;
+	}
+m-input {
+		width: 100%;
+		min-height: 100%;
+		display: flex;
+	}
+	
+	.contenting {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		background-color: #efeff4;
+		padding: 20upx;
+	}
+.input-group {
+		background-color: #ffffff;
+		margin-top: 40upx;
+		position: relative;
+	}
+	
+	.input-group::before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		left: 0;
+		height: 1upx;
+		content: '';
+		-webkit-transform: scaleY(.5);
+		transform: scaleY(.5);
+		background-color: #c8c7cc;
+	}
+	
+	.input-group::after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 1upx;
+		content: '';
+		-webkit-transform: scaleY(.5);
+		transform: scaleY(.5);
+		background-color: #c8c7cc;
+	}
+	
+	.input-row {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+	}
+	
+	.input-row .title {
+		width: 20%;
+		height: 50upx;
+		min-height: 50upx;
+		padding: 15upx 0;
+		padding-left: 30upx;
+		line-height: 50upx;
+	}
+	
+	.input-row.border::after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 15upx;
+		height: 1upx;
+		content: '';
+		-webkit-transform: scaleY(.5);
+		transform: scaleY(.5);
+		background-color: #c8c7cc;
+	}
+	
+	.btn-row {
+		margin-top: 50upx;
+		padding: 20upx;
+	}
+	
+	button.primary {
+		background-color: #0faeff;
+	}
+	.margin20{
+		width: 100%;
+		height: 20upx;
+		background-color: #F5F5F5;
+	}
+/* 详细布局样式 */
+.goodLM{
+	width: 750upx;
+	display: flex;
+	flex-direction:row;
+	margin-bottom:20upx;
+    padding:6upx 20upx;
+	overflow: hidden;
+}
+.goodLM > image {
+    width:230rpx;
+    height:230rpx;
+    margin-right:20rpx;
+}
+.goodLM > .goodLmdesc{
+    width: 460upx;
+    height: 230upx;
+    display:flex;
+    flex-direction:column;
+    font-size:24upx;
+    border-bottom: 2upx solid #EEEEEE;
+	background-color: #FFFFFF;
+	 /* #ifdef APP-PLUS */
+	 line-height: 36upx;
+    /*  #endif */
+}
+.goodLM  >.goodLmdesc> .title{
+    height: 80upx;
+    font-size:28upx;
+    color: #333333;
+    font-weight: 500;
+    word-break:break-all;
+    /* 超出部分隐藏 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.goodLM > .goodLmdesc >.title >text{
+    position: relative;
+    top: -4upx;
+    background-color: #F70009;
+    font-size: 18upx;
+    height: 26upx;
+    line-height: 26upx;
+    font-weight: normal;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 6upx;
+}
+.goodLM > .goodLmdesc >.juan{
+    width: 100%;
+    height: 40upx;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 18upx 0 0 0;
+	position: relative;
+}
+.goodLM > .goodLmdesc >.juan>image{
+	position: absolute;
+	top: 28upx;
+	right: 10upx;
+	width: 20upx;
+	height: 20upx;
+}
+.goodLM > .goodLmdesc> .juan >.tiao{
+    box-sizing: border-box;
+    width: 90upx;
+    height: 50upx;
+    text-align: right;
+    color:#FD483A;
+    line-height:54upx;
+    background: url('static/juan0.png') no-repeat center;
+    border-radius:12upx;
+    background-size: 90upx;
+    margin-top: -6upx;
+    padding-right: 14upx;
+	position: relative;
+}
+.goodLM > .goodLmdesc> .juan >.tiao>.amout{
+	position: absolute;
+	display: inline-block;
+	width: 40upx;
+	align-content: center;
+	top:-2upx;
+	right: 16upx;
+}
+.goodLM > .goodLmdesc >.juan >text:nth-child(2),.goodLM > .goodLmdesc >.juan >text:nth-child(3){
+    width: 100upx;
+    height: 40upx;
+    background-color: #FEF0EF;
+    color:#E64B4A;
+    line-height: 40upx;
+    text-align: center;
+    border-radius: 6upx;
+}
+.goodLM > .goodLmdesc >.juan >text:nth-child(2){
+    background-color: #FBEDE2;
+	display: inline-block;
+    color:#F8611E;
+	min-width: 110upx;
+}
+.goodLM > .goodLmdesc> .juan >text:nth-child(3){
+    width: 200upx;
+	display: inline-block;
+}
+.goodLM > .goodLmdesc> .juan >text:nth-child(3)>image{
+	width: 40upx;
+	height: 40upx;
+}
+.goodLM > .goodLmdesc >.ling{
+    width: 100%;
+    height: 72upx;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+}
+.goodLM > .goodLmdesc> .ling> .yuan{
+    width: 484upx;
+    display:flex;
+    flex-direction:row;
+}
+.goodLM  > .goodLmdesc >.ling> .yuan>view:first-child{
+    width: 190upx;
+    height: 32upx;
+    font-size: 20upx;
+    color:#FD4739;
+}
+.goodLM > .goodLmdesc> .ling >.yuan>view:first-child>text{
+    font-size: 36upx;
+}
+.goodLM > .goodLmdesc> .ling> .yuan>view:nth-child(2){
+    width: 160upx;
+    height: 32upx;
+    line-height: 58upx;
+    font-size: 22upx;
+    text-decoration: line-through;
+    color:#A6A6A6;
+}
+.goodLM > .goodLmdesc> .ling >.yuan>view:nth-child(3){
+    width: 148upx;
+    height: 32upx;
+    line-height: 58upx;
+    font-size: 22upx;
+    color:#A6A6A6;
+}
+/* 图片布局 */
+.goodBL{
+	width: 348upx;
+	display: flex;
+	flex-direction:column;
+    margin-right: 14upx;
+	margin-top: 16upx;
+}
+.goodBL >image{
+    width: 348upx;
+    height: 348upx;
+}
+.goodBL .goodLmdesc{
+    width: 350upx;
+    height: 214upx;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.goodBL .goodLmdesc .title{
+    width: 312upx;
+    height: 36upx;
+    font-size:30upx;
+    color: #333333;
+	padding-left: 30upx;
+    /* // font-weight: bold; */
+    /* // 超出部分隐藏 */
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.goodBL .goodLmdesc .title>text{
+    position: relative;
+    left: -23upx;
+    top:-2upx;
+    z-index: 1;
+    background-color: #F70009;
+    font-size: 18upx;
+    font-weight: normal;
+    display: inline-block;
+    width: 60upx;
+    text-align: center;
+    height: 26upx;
+    line-height: 26upx;
+    color: #ffffff;
+    border-radius: 6upx;
+}
+.goodBL .goodLmdesc .juan{
+    width: 328upx;
+    height: 40upx;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 18upx 10upx 0 6upx;
+}
+.goodBL .goodLmdesc .juan image{
+	position: absolute;
+	top: 64upx;
+	right: 20upx;
+	width: 20upx;
+	height: 20upx;
+}
+.goodBL .goodLmdesc .juan>text:first-child,.goodBL .goodLmdesc .juan>text:nth-child(2){
+    width: 100upx;
+    height: 40upx;
+    background-color: #FEF0EF;
+    color:#E64B4A;
+    line-height: 40upx;
+    text-align: center;
+    font-size: 22upx;
+    border-radius: 6upx;
+}
+.goodBL .goodLmdesc .juan>text:first-child{
+	background-color:#FBEDE2;
+    color:#F8611E;
+}
+.goodBL .goodLmdesc .juan>text:nth-child(2){
+    width: 170upx;
+}
+.goodBL .goodLmdesc .juan>text:nth-child(3){
+    height: 22upx;
+    color:#A6A6A6;
+}
+/* // 原价格  打折后的价格及跳转 */
+.goodBL .goodLmdesc .ling{
+		width: 348upx;
+		height: 32upx;
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		justify-content:space-between;
+        align-items: center;
+}
+/* // 原价格  打折后的价格 */
+.goodBL .goodLmdesc .ling .yuan{
+			width: 328upx;
+			height: 32upx;
+			display:flex;
+			flex-direction:row;
+			justify-content: space-between;
+			font-size: 22upx;
+			padding:0upx 6upx;
+            /* // margin:20upx 0; */
+}
+.goodBL .goodLmdesc .ling .yuan>view:first-child{
+    width: 190upx;
+    height: 32upx;
+    line-height: 64upx;
+    font-size: 22upx;
+    text-decoration: line-through;
+    color:#A6A6A6;
+}
+.goodBL .goodLmdesc .ling .yuan .tiao{
+    width: 100upx;
+    height: 50upx;
+    text-align: right;
+    color:#FD483A;
+    line-height:54upx;
+    background: url('static/juan0.png') no-repeat center;
+    background-size: 90upx;
+    margin-top: 8upx;
+    padding-right: 40upx;
+    margin-right: -22upx;
+	position: relative;
+}
+.goodBL .goodLmdesc .ling .yuan .tiao .aumouts{
+	position: absolute;
+	top:-2upx;
+	right: 28upx;
+	width: 40upx;
+	text-align: center;
+}
+.goodBL .goodLmdesc .ling .tuflextiao{
+    width: 328upx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22upx;
+    margin-top: 22upx;
+    padding: 0upx 10upx;
+}
+.goodBL .goodLmdesc .ling .tuflextiao>view:first-child{
+    width: 250upx;
+    height: 32upx;
+    font-size: 20upx;
+    color:#FD4739;
+}
+.goodBL .goodLmdesc .ling .tuflextiao>view:first-child>text{
+    font-size: 40upx;
+}
+.goodBL .goodLmdesc .ling .tuflextiao>text{
+    display: inline-block;
+    width: 160upx;
+    height: 32upx;
+    font-size: 20upx;
+    color:#A6A6A6;
+    padding-top:20upx;
+	text-align: right;
+	padding-right: 4upx;
+}
+.btnshare{
+	position: fixed;
+	width: 100upx;
+	height: 100upx;
+	line-height: 28upx;
+	box-sizing: border-box;
+	padding-top: 16upx;
+	border-radius: 50%;
+	background:rgba(241,0,0,0.8);
+	color: #ffffff;
+	bottom: 50upx;
+	right: 28upx;
+	z-index: 20;
+	text-align:center;
+}
+.btnshare>text{
+	width: 60upx;
+	display: inline-block;
+	font-size: 28upx;
+}

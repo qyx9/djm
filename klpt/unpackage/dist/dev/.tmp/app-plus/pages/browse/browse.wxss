@@ -1,0 +1,11 @@
+.browse {
+  height: 100%;
+}
+.browse .timeline .time {
+  height: 60rpx;
+  width: 100%;
+  line-height: 60rpx;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+

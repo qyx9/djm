@@ -1,0 +1,168 @@
+.collection {
+  background-color: #F5F5F5;
+  padding-top: 20rpx;
+  padding-bottom: 120rpx;
+}
+.collection .positionBtm {
+  position: fixed;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  z-index: 100;
+}
+.collection .allradio {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0  0 0 20rpx;
+  width: 100%;
+  height: 120rpx;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.collection .allradio .radiolist {
+  width: 40%;
+  height: 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.collection .allradio .radiolist radio {
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+}
+.collection .allradio .radiolist view {
+  width: 70%;
+  text-align: left;
+  display: inline-block;
+}
+.collection .allradio .btn {
+  width: 28%;
+  height: 60rpx;
+  background-color: aqua;
+  display: inline-block;
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: #ffffff;
+}
+.collection .tlist {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20rpx;
+  padding: 0 20rpx;
+  height: 200rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+.collection .tlist > image {
+  width: 160rpx;
+  height: 160rpx;
+}
+.collection .tlist .right {
+  width: 60%;
+  height: 160rpx;
+}
+.collection .tlist .goodname {
+  width: 100%;
+  height: 72rpx;
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: 500;
+  text-align: left;
+  word-break: break-all;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.collection .tlist .goodname > text {
+  position: relative;
+  top: -2rpx;
+  background-color: #F70009;
+  font-size: 18rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  font-weight: normal;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 6rpx;
+}
+.collection .tlist .price {
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.collection .tlist .price > text:first-child {
+  display: inline-block;
+  font-size: 28rpx;
+  color: #FD4739;
+}
+.collection .tlist .price > text:nth-child(2) {
+  font-size: 26rpx;
+  color: #BEBEBE;
+}
+
+
+/*# sourceMappingURL=../../../.sourcemap/mp-baidu/pages/collection/collection.js.map*/
